@@ -4,12 +4,6 @@ import PackageDescription
 
 let package = Package(
     name: "ReadabilityKit",
-    platforms: [
-        .macOS(.v10_12),
-        .iOS(.v10),
-        .watchOS(v3),
-        .tvOS(.v10)
-    ],
     products: [
         .library(
             name: "ReadabilityKit", 
